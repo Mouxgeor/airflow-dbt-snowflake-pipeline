@@ -1,0 +1,20 @@
+# --- Security (Never upload these) ---
+.env
+.DS_Store
+
+# --- Astro & Airflow Locals ---
+.astro/
+airflow_settings.yaml
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+
+# --- Python & dbt Junk ---
+__pycache__/
+*.pyc
+.venv
+dbt_venv/
+logs/
+tmp/
+target/
