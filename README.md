@@ -25,6 +25,9 @@ By integrating **Apache Airflow** (orchestration) with **dbt** (transformation) 
 * `dags/dbt_dag.py`: The Python entry point that uses Cosmos to generate the Airflow DAG.
 * `dags/data_pipeline/`: The full dbt project containing SQL models (`.sql`) and configuration (`dbt_project.yml`).
 * `Dockerfile`: Custom image definition ensuring `dbt-snowflake` and `cosmos` are installed in an isolated virtual environment.
+<img width="1305" height="484" alt="pipeline_graph" src="https://github.com/user-attachments/assets/57fbceec-0c71-416c-812e-23530dbf9ec0" />
+<img width="394" height="333" alt="success_grid" src="https://github.com/user-attachments/assets/97b0f582-c8b7-48a0-9962-791b78feca5b" />
+<img width="1239" height="409" alt="proof_of_data" src="https://github.com/user-attachments/assets/56e035b8-4da3-4b44-a687-a3aadfcdedda" />
 
 ## 🛠️ How to Run Locally
 1.  **Clone the Repository:**
